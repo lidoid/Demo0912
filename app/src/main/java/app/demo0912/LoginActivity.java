@@ -21,6 +21,7 @@ import java.util.regex.Pattern;
 //登陆界面
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
+
     private TextView login_text;
     private EditText login_name;
     private EditText login_password;
