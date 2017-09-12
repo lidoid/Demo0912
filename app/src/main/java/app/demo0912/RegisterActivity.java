@@ -50,8 +50,10 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 String re_password1 = re_password.getText().toString();
                 String format = "[a-zA-Z](@?+\\w){5,17}+";
                 if (matcher.find()&&re_password1.matches(format)){
-                    Intent intent=new Intent(RegisterActivity.this,MainActivity.class);
+                    Intent intent=new Intent(RegisterActivity.this,VerificationActivity.class);
                     startActivity(intent);
+                }else{
+                    Toast.makeText(this, "手机号或密码格式不正确", Toast.LENGTH_SHORT).show();
                 }
                 break;
         }
