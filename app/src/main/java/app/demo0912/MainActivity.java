@@ -15,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.i("asdfg","asdfg");
         Toast.makeText(this, "a", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "a", Toast.LENGTH_SHORT).show();
     }
 }
