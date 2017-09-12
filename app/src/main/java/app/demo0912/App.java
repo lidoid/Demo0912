@@ -16,7 +16,7 @@ public class App extends Application{
     {
         PlatformConfig.setWeixin("wx967daebe835fbeac", "5bb696d9ccd75a38c8a0bfe0675559b3");
         PlatformConfig.setQQZone("100424468", "c7394704798a158208a74ab60104f0ba");
-        PlatformConfig.setSinaWeibo("3921700954", "04b48b094faeb16683c32669824ebdad", "http://sns.whalecloud.com");
+        PlatformConfig.setSinaWeibo("2234070502", "e8cd0c0aa7264684f12e59d609442bc9", "http://sns.whalecloud.com");
     }
 
     //对sdk进行初始化  开启DEBUG模式
