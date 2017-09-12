@@ -12,8 +12,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.Random;
-
 /**
  * Created by Robot on 2017/9/12.
  */
@@ -31,16 +29,7 @@ public class VerificationActivity extends AppCompatActivity implements View.OnCl
                 case 200:
                     ver_btton.setText("重新发送" + i);
                     if (i == 0) {
-                        i = 60;
-                        ver_btton.setText("验证码");
-                        ver_btton.setClickable(true);
-                        StringBuffer sb=new StringBuffer();
-                        Random random=new Random();
-                        for (int j = 0; j < 6; j++) {
-                            int i = random.nextInt();
-                            sb.append(i);
-                        }
-                        ve_yanzheng.setText(sb.toString());
+
                     } else {
                         handler.sendEmptyMessageDelayed(200, 1000);
                         i--;
@@ -79,7 +68,6 @@ public class VerificationActivity extends AppCompatActivity implements View.OnCl
                 handler.sendEmptyMessageDelayed(200, 1000);
                 break;
             case R.id.button2:
-
                 Intent intent=new Intent(VerificationActivity.this,MainActivity.class);
                 startActivity(intent);
                 break;
