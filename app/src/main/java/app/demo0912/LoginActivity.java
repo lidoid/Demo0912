@@ -37,6 +37,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         initView();
     }
 
+
     private void initView() {
         login_text = (TextView) findViewById(R.id.login_text);
         login_name = (EditText) findViewById(R.id.login_name);
