@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+//主页界面
 public class MainActivity extends AppCompatActivity {
 
     @Override
