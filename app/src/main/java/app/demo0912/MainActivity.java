@@ -3,6 +3,7 @@ package app.demo0912;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+//主页界面
 public class MainActivity extends AppCompatActivity {
 
     @Override
